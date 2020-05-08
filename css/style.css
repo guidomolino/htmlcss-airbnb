@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(54, 54, 143);
+}
+.principale{
+
+}
+.city1{
+  background-image: url(../img/london.jpg);
+  display: inline-block;
+  position: relative;
+  width: 33vw;
+  height: 33vh;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 300px;
+  transform: translate(-50%,-50%);
+  background-size: cover;
+  border:5px solid white;
+}
+.city2{
+  background-image: url(../img/new-york.jpg);
+  display: inline-block;
+  position: relative;
+  width: 33vw;
+  height: 33vh;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%,-50%);
+  background-size: cover;
+  border:5px solid white;
+}
+.city3{
+  background-image: url(../img/tokyo.jpg);
+  display: inline-block;
+  position: relative;
+  width: 33vw;
+  height: 33vh;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%,-50%);
+  background-size: cover;
+  border:5px solid white;
+}
+span{
+  color: white;
+  font-size: 35px;
+  position: absolute;
+}
