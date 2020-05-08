@@ -13,10 +13,8 @@ body{
   width: 33vw;
   height: 33vh;
   margin-left: 50%;
-  margin-right: 50%;
   margin-top: 300px;
   transform: translate(-50%,-50%);
-  background-size: cover;
   border:5px solid white;
 }
 .city2{
@@ -26,9 +24,7 @@ body{
   width: 33vw;
   height: 33vh;
   margin-left: 50%;
-  margin-right: 50%;
   transform: translate(-50%,-50%);
-  background-size: cover;
   border:5px solid white;
 }
 .city3{
@@ -38,9 +34,7 @@ body{
   width: 33vw;
   height: 33vh;
   margin-left: 50%;
-  margin-right: 50%;
   transform: translate(-50%,-50%);
-  background-size: cover;
   border:5px solid white;
 }
 span {
