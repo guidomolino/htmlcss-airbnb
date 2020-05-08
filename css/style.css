@@ -6,12 +6,9 @@
 body{
   background-color: rgb(54, 54, 143);
 }
-.principale{
-
-}
 .city1{
   background-image: url(../img/london.jpg);
-  display: inline-block;
+  background-size: cover;
   position: relative;
   width: 33vw;
   height: 33vh;
@@ -24,7 +21,7 @@ body{
 }
 .city2{
   background-image: url(../img/new-york.jpg);
-  display: inline-block;
+  background-size: cover;
   position: relative;
   width: 33vw;
   height: 33vh;
@@ -36,7 +33,7 @@ body{
 }
 .city3{
   background-image: url(../img/tokyo.jpg);
-  display: inline-block;
+  background-size: cover;
   position: relative;
   width: 33vw;
   height: 33vh;
@@ -46,8 +43,12 @@ body{
   background-size: cover;
   border:5px solid white;
 }
-span{
-  color: white;
+span {
+  display: inline-block;
+  line-height: 33vh;
+  width: 100%;
+  text-align: center;
   font-size: 35px;
-  position: absolute;
+  color: orange;
+  text-shadow: 2px 2px black;
 }
